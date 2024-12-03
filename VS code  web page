@@ -1,0 +1,127 @@
+<html>
+    <title>
+        Visual Studio Code 
+    </title>
+    <link rel="stylesheet" href="index.css">
+</html>
+<body>
+    <div style=" padding-left: 200px; padding-top: 10px; display: flex; justify-content: space-between;">
+        <div>
+            <img src="https://code.visualstudio.com/favicon.ico" width="24" style="padding-right: 5px;">
+            <span style="font-size:15; color: #e9eaeb; font-weight:550;" >Visual Studio Code</span>
+            <a target="_blank" href="https://code.visualstudio.com/docs" style="text-decoration: none;">
+                <span class="toplink">Docs</span>
+            </a>
+            <a target="_blank" href="https://code.visualstudio.com/updates/v1_95" style="text-decoration: none;">
+                <span class="toplink">Updates</span>
+            </a>
+            <a target="_blank" href="https://code.visualstudio.com/blogs/2024/11/15/introducing-github-copilot-for-azure" style="text-decoration: none;">
+                <span class="toplink">Blog</span>
+            </a>
+            <a target="_blank" href="https://code.visualstudio.com/api" style="text-decoration: none;">
+                <span class="toplink">API</span>
+            </a>
+            <a target="_blank" href="https://marketplace.visualstudio.com/VSCode" style="text-decoration: none;">
+                <span class="toplink">Extensions</span>
+            </a>
+            <a target="_blank" href="https://code.visualstudio.com/docs/supporting/faq" style="text-decoration: none;">
+                <span class="toplink">FAQ</span>
+            </a>
+            <a target="_blank" href="https://code.visualstudio.com/docs/copilot/overview" style="text-decoration: none;">
+                <span class="toplink">GitHub Copilot</span>
+            </a>
+        </div>
+        <div style="padding-right: 200px;">
+            <input style="background-color: grey;" type="text" placeholders="Search Docs">
+            <button style="background-color: #0078d4; color: #e9eaeb;">Download</button>
+        </div>
+    </div>
+    <br />
+    <center>
+        <div>
+            <a style="color:#4daafc" target="_blank" href="https://code.visualstudio.com/updates/v1_95">Version 1.82</a> <span style="color: gray;">is now available! Read about the new features and fixes from October.</span>
+        </div>
+    </center>
+    <br />
+    <div style="display: flex; justify-content: space-between;">
+        <div style="padding-left: 200px;">
+            <br/><br/><br/><br/><br/>
+            <span style="color:#e9eaeb;">Free. Built on spam source. Runs everywhere.</span>
+            <h1 style="color:#e9eaeb; font-size: 50;">Code Editing.</h1>
+            <h1 style="color:#e9eaeb; font-size: 50;">Redefined.</h1>
+            <div style="padding-left: 20px;">
+                <button style="background-color:#0078d4; color:#e9eaeb; padding-left:20px; padding-right: 20px; padding-top: 20px; padding-bottom: 20px;">Download for macOS</button>
+            </div>
+            <a style="color: #4daafc;" target="_blank" href="https://vscode.dev/">Web</a>
+            <span style="color:grey;">,</span>
+            <a style="color: #4daafc;" target="_blank" href="https://code.visualstudio.com/insiders/">Insiders edition</a>
+            <span style="color:grey;"> or </span>
+            <a style="color: #4daafc;" target="_blank" href="https://code.visualstudio.com/Download">other platforms</a>
+            <div>
+                <span style="color: grey;">By using VS Code, you agree to its</span>
+                <a style="color: grey;" target="_blank" href="https://code.visualstudio.com/license">license</a>
+                <span style="color: grey;"> and </span>
+                <a style="color: grey;" target="_blank" href="https://www.microsoft.com/en-us/privacy/privacystatement">privacy statement</a>
+            </div>
+        </div>
+        <div style="padding-right: 200px;">
+            <br/><br/>
+            <img src="https://code.visualstudio.com/assets/home/home-screenshot-copilot.png" width="600" >
+        </div>
+    </div>
+    <div style="display: flex; justify-content: flex-start;">
+        <div>
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <div style="padding-left: 200px;">
+                <h1 style="color: #e9eaeb;">Code with GitHub Copilot</h1>
+                <div>
+                    <span style="color: grey;">Write code faster and smarter with GitHub Copilot, your AI pair programmer.</span>
+                    <div>
+                        <a href="https://github.com/settings/copilot?utm_source=vscode-landing-2&utm_medium=swim&utm_campaign=2024q3-em-MSFT-signup" style="color: #4daafc;">Try GitHub Copilot free for 30 days</a>
+                    </div>
+                </div>
+                <br /><br /><br />
+                <a href="https://code.visualstudio.com/docs/copilot/ai-powered-suggestions" style="color: #4daafc;">Completions</a>
+                <span style="color: grey;"> present suggestions automatically to help you code more efficiently.</span>
+                <br /><br /><br />
+                <a href="https://code.visualstudio.com/docs/copilot/copilot-chat" style="color: #4daafc;">Copilot Chat</a>
+                <span style="color: grey;"> understands the context of your code, workspace, extensions, settings, and more.</span>
+                <br /><br /><br />
+                <a href="https://code.visualstudio.com/docs/copilot/getting-started#_refactor-your-code-through-ai-chat" style="color: #4daafc;">Inline Chat</a>
+                <span style="color: grey;"> understands the context of your code, workspace, extensions, settings, and more.</span>
+            </div>
+        </div>
+        <div style="padding-right: 150px;">
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <img src="https://code.visualstudio.com/assets/home/swimlane-copilot.png" width="700">
+            <br /><br /><br /><br />
+        </div>
+    </div>
+</body>
+
+//css file
+<head>
+    <title>
+        Visual Studio Code 
+    </title>
+</head>
+<body>
+    <div>
+        <span>Visual Studio Code</span>
+        <a taget="_blank" href="https://code.visualstudio.com/docs">Docs</a>
+        <a taget="_blank" href="https://code.visualstudio.com/updates/v1_95">Updates</a>
+        <a taget="_blank" href="https://code.visualstudio.com/blogs/2024/11/15/introducing-github-copilot-for-azure">Blog</a>
+        <a taget="_blank" href="https://code.visualstudio.com/api">API</a>
+        <a taget="_blank" href="https://marketplace.visualstudio.com/VSCode">Extensions</a>
+        <a taget="_blank" href="https://code.visualstudio.com/docs/supporting/faq">FAQs</a>
+        <a taget="_blank" href="https://code.visualstudio.com/Search">Search</a>
+        <input type="text" placementholders="Search Docs">
+        <button>Download</button>
+    </div>
+    <br />
+    <div>
+        <a taget="_blank" href="https://code.visualstudio.com/updates/v1_95">Version 1.82</a>is now available 
+    </div>
+    <br />
+</body>
+
