@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pokémon Cards</title>
+        <link rel="stylesheet" href="poke.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    </head>
+    <body style="background-color: rgb(220, 35, 35);">
+        <div>
+            <div class="pokemon-red" >
+                <span>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg">
+                    <h1 class="pokemon-heading">FINDER</h1>
+                </span>
+            </div>
+            <div class="pokemon-main">
+                <div>
+                    <img src="https://vignette.wikia.nocookie.net/pokepediabr/images/3/38/Pok%C3%A9dex_Kanto.png/revision/latest?cb=20131224014121&path-prefix=pt-br" height="250px" style="padding-left: 80px;">
+                </div>
+                <div class="pokemon-align">
+                    <input type="text" min="1" placeholder="Number of cards" class="input1" id="in1">
+                    <div>
+                        <input type="text" min="1" placeholder="Starting Pokémon ID" class="input1" id="in2">
+                    </div>
+                </div>
+                <div>
+                    <img src="https://pngimg.com/uploads/pokeball/pokeball_PNG8.png" height="250px" style="padding-left: 80px;">
+                </div>
+            </div>
+            <center><button class="bt1" id="button1">Get Pokémon</button></center>
+        </div>
+        <div id="card-container" ></div>
+        <script src="poke.js"></script>
+    </body>
+</html>

@@ -1,0 +1,68 @@
+.pokemon-red{
+    display: flex;
+    justify-content: center;
+    padding-right: 50px;
+    margin-bottom: 40px;
+}
+
+.pokemon-heading{
+    font-family: 'press start 2P',cursive;
+    padding-left: 50px;
+    color: rgb(255, 204, 0);
+}
+
+.pokemon-main{
+    display:grid;
+    grid-template-columns: 1.1fr 0.75fr 1fr;
+    gap: 50px;
+}
+
+.pokemon-align{
+    padding-top: 50px;
+}
+
+.input1{
+    margin-left: 30ox;
+    padding: 20px 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-right: 10px;
+    background-color: rgb(255, 204, 0);
+    font-family: 'press start 2P',cursive;
+    color: rgb(0, 56, 168);
+}
+
+.input1::placeholder{
+    color: rgb(0, 56, 168);
+    font-family: 'press start 2P',cursive;
+}
+
+.bt1{
+    padding: 20px 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    background-color: rgb(0, 56, 168);
+    color: rgb(255, 204, 0);
+    font-family: 'press start 2P',cursive;
+    cursor: pointer;
+}
+
+.card{
+    font-family: 'press start 2P',cursive;
+    color:rgb(255, 204, 0);
+    margin-top: 40px;
+}
+
+.star {
+    display: flex;
+    justify-content: center;
+    margin: 0px 20px;          
+    width: 100px;                      
+    border-radius: 10px;     
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid rgb(255, 204, 0); 
+    margin-bottom: 40px;
+    margin-left: 700px;
+}
