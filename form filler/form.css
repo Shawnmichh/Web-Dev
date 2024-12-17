@@ -1,0 +1,70 @@
+.body{
+    background-color: rgb(41, 39, 39); 
+    font-family: 'Roboto', sans-serif;
+}
+
+.forms{
+    border: 2px transparent;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px;
+    background-color: gainsboro;
+}
+
+.lb{
+    padding-left: 10px; 
+    font-weight: bold;
+}
+
+.dropdown{
+    border-radius: 5px;
+    border: 2px transparent;
+    width: 98%;
+    padding: 5px;
+    margin: 10px;
+    background-color: silver;
+    color: black;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.in1{
+    border-radius: 5px;
+    width: 98%;
+    padding: 5px;
+    margin: 10px;
+    border: 2px transparent;
+    background-color: silver;
+    box-shadow: 0px 0px 5px;
+    color: black;
+    font-weight: bold;
+}
+
+.but{
+    border-radius: 5px;
+    width: 98%;
+    padding: 5px;
+    margin: 10px;
+    border: 2px transparent;
+    background-color: #4169E1;
+    color: gainsboro;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px;
+}
+.but:hover{
+    background-color: #4682B4;
+}
+
+.preview{
+    border: 2px transparent;
+    background-color: gainsboro;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px;
+}
+
+.in2{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    border: 2px transparent;
+}
