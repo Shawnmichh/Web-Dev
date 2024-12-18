@@ -1,0 +1,54 @@
+.body{
+  background-color: beige;
+  font-family: 'Lora', serif;
+}
+
+.align{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  align-items: start;
+}
+
+.todo{
+  background-color: rgb(54, 50, 50);
+  border: 2px transparent;
+  box-shadow: 0px 0px 10px;
+  border-radius: 10px;
+}
+
+.but{
+  width: 100%;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: rgb(13, 102, 211);
+  color: beige;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid rgb(54, 50, 50);
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  cursor: pointer;
+}
+
+.task{
+  background-color: silver;
+  border: 2px transparent;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px;
+  margin: 0px 30px;
+  cursor: grab;
+}
+
+.h2{
+  margin-left: 10px;
+  color: rgb(54, 50, 50);
+}
+
+.h4{
+  margin-left: 10px;
+  color: rgb(13, 102, 211);
+  margin-bottom: 10px;
+}

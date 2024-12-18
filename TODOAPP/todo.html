@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TO-DO!</title>
+        <link href="todo.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap" rel="stylesheet">
+    </head>
+    <body class="body">
+        <h1 style="text-align: center; color: rgb(54, 50, 50);">TASKIFY</h1>
+        <div class="align">
+            <div class="todo" id="todos" ondrop="drop(event)" ondragover="allowdrop(event)">
+                <h2 style="text-align: center; color: beige">TO-DO</h2>
+                <button class="but" onclick="addTask('todos')" >
+                    <h3>ADD NEW</h3>
+                    <h3>+</h3>
+                </button>
+            </div>
+            <div class="todo" id="inprogress" ondrop="drop(event)" ondragover="allowdrop(event)">
+                <h2 style="text-align: center; color: beige">IN PROGRESS</h2>
+                <button class="but" onclick="addTask('inprogress')">
+                    <h3>ADD NEW</h3>
+                    <h3>+</h3>
+                </button>
+            </div>
+            <div class="todo" id="undereview" ondrop="drop(event)" ondragover="allowdrop(event)">
+                <h2 style="text-align: center; color: beige">UNDER REVIEW</h2>
+                <button class="but" onclick="addTask('undereview')">
+                    <h3>ADD NEW</h3>
+                    <h3>+</h3>
+                </button>
+            </div>
+            <div class="todo" id="finished" ondrop="drop(event)" ondragover="allowdrop(event)">
+                <h2 style="text-align: center; color: beige">FINISHED</h2>
+                <button class="but" onclick="addTask('finished')">
+                    <h3>ADD NEW</h3>
+                    <h3>+</h3>
+                </button>
+            </div>
+        </div>
+        <script src="todo.js"></script>
+    </body>
+</html>
